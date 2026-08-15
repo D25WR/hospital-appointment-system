@@ -1,0 +1,60 @@
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #f7f8fa;
+  color: #1a1a2e;
+}
+
+.auth-box {
+  max-width: 320px;
+  width: 90%;
+  margin: 60px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+}
+.auth-box input {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #0984E3;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.page-container {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.doctor-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.doctor-list li {
+  background: #fff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .page-container { padding: 16px 12px; }
+  h2 { font-size: 20px; }
+}

@@ -1,0 +1,11 @@
+target/
+*.class
+node_modules/
+build/
+.env
+.idea/
+*.iml
+.vscode/
+.DS_Store
+application.properties
+!application-example.properties
